@@ -1,6 +1,7 @@
 import random
+from charts import *
 
-
+#******************* Game ********************************
 def choose_options():
   options = ('piedra', 'papel', 'tijera')
   user_option = input('piedra, papel o tijera => ')
@@ -74,3 +75,9 @@ def run_game():
       break
 
 run_game()
+#*********************************** Charts *************************************************************
+def run ():
+  generate_pie_chart()
+
+if __name__ == '__main__':
+  run()
