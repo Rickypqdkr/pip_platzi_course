@@ -1,7 +1,7 @@
-from Game import *
-from charts import *
+
+import charts
 def run ():
-  generate_pie_chart()
+  charts.generate_pie_chart()
 
 if __name__ == '__main__':
     run()
