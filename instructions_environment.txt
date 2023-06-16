@@ -1,0 +1,9 @@
+//****************************** Intructions for creating virtual environment ********************************************
+
+install sh
+
+for wsl or linux
+-> install -> sudo apt install -y python3-venv
+1) python3 -m venv "name venv"
+2) source name ven/bin/activate **********-> activate virtual environment *****
+	deactivate ********************* deactivate virtual environment
